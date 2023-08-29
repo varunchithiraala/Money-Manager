@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.transaction-item {
+  list-style-type: none;
+  border-bottom: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-item {
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+} 
+
+.transaction-text {
+  color: #475569;
+  font-family: "Roboto";
+  font-size: 12px;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-text {
+      font-size: 14px;
+  }
+}
+
+.delete-transaction-conatainer {
+  width: 10%;
+  display: flex;
+}
+
+.delete-transaction-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-transaction-image {
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-transaction-image {
+      margin-right: 24px;
+  }
+}
