@@ -177,7 +177,7 @@ class MoneyManager extends Component {
             <div className="transactions-history-conatiner">
               <h1 className="transaction-heading">History</h1>
               <div className="transactions-table-container">
-                <ul className="transcations-table">
+                <ul className="transactions-table">
                   <li className="transactions-table-header">
                     <p className="table-header-name">Title</p>
                     <p className="table-header-name">Amount</p>
